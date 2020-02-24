@@ -1,0 +1,23 @@
+app:
+  jwtExpirationInMs: '604800000'
+  jwtSecret: JWTSuperSecretKey
+logging:
+  level:
+    org:
+      hibernate:
+        SQL: DEBUG
+server:
+  port: '8085'
+  ssl.key-store-type: 'PKCS12'
+  ssl.key-store: '/etc/stempol/certs/stempol-keystore.jks'
+  ssl.key-store-password: 'zdC3MZNQ4CPBB89mZZ5dwUs6PUJN72R9'
+  ssl.key-alias: 'stempol'
+security.require-ssl: true
+spring:
+  ldap:
+    embedded:
+      base-dn: dc=politie,dc=nl
+      ldif: classpath:localldapactivedirectory.ldif
+      port: 12345
+      validation:
+        enabled: false
