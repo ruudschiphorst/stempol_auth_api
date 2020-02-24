@@ -13,6 +13,7 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.config.http.SessionCreationPolicy;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.ldap.DefaultSpringSecurityContextSource;
 
 import nl.politie.predev.stempol.auth.api.security.JwtAuthenticationEntryPoint;
@@ -51,13 +52,11 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	    	//Good to use BcryptEncoder for spring 5.0
 	        auth
 	                .ldapAuthentication()
-	           
-	                    .userDnPatterns("uid={0},ou=Peons")
-	                    //.groupSearchBase("ou=groups")
+	                    .userDnPatterns("uid={0},ou=people")
+	                    .groupSearchBase("ou=groups")
 	                .contextSource(contextSource())
-	              
 	                .passwordCompare()
-	                    //.passwordEncoder(new BCryptPasswordEncoder())
+	                    .passwordEncoder(new BCryptPasswordEncoder())
 	                    .passwordAttribute("userPassword");
 	       
 	    }
@@ -76,7 +75,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
   @Bean
   public DefaultSpringSecurityContextSource contextSource() {
       return  new DefaultSpringSecurityContextSource(
-              Collections.singletonList("ldap://52.157.73.165:389"), "dc=example,dc=org");
+              Collections.singletonList("ldap://localhost:12345"), "dc=politie,dc=nl");
   }
   
 }
