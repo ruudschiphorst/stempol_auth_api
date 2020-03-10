@@ -9,4 +9,9 @@ RUN addgroup -S spring && adduser -S spring -G spring
 USER spring:spring
 COPY --from=MAVEN_TOOL_CHAIN /tmp/target/*.jar app.jar
 COPY stempol-keystore.jks /etc/stempol/certs/stempol-keystore.jks
+
+# Disable checking for known_hosts (maybe not working)
+RUN mkdir /root/.ssh && echo "StrictHostKeyChecking no " > /root/.ssh/config
+RUN mkdir /home/spring/.ssh && echo "StrictHostKeyChecking no " > /home/spring/.ssh/config
+
 ENTRYPOINT ["java","-jar","/app.jar"]
