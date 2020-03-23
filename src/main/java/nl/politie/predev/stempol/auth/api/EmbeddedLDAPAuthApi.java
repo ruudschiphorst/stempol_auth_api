@@ -21,5 +21,4 @@ public class EmbeddedLDAPAuthApi {
 		SpringApplication.run(EmbeddedLDAPAuthApi.class, args);
 	}
 	
-	
 }

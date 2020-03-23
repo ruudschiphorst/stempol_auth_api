@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/test")
 public class TestController {
 	
-	
     @PostMapping("/magiknietzien")
     public ResponseEntity<?> getIets(){
     	return new ResponseEntity<String>("Dit zie ik niet als ik niet ingelogd ben", HttpStatus.OK);

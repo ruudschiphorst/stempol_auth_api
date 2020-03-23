@@ -52,7 +52,6 @@ public class JwtTokenProvider extends BasicAuthenticationFilter  {
         Date now = new Date();
         Date expiryDate = new Date(now.getTime() + jwtExpirationInMs);
 
-
         return Jwts.builder()
                 .setSubject(userPrincipal.getUsername())
                 .setIssuedAt(new Date())

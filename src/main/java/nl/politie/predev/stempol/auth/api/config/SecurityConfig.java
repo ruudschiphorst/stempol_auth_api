@@ -28,7 +28,6 @@ import nl.politie.predev.stempol.auth.api.security.JwtTokenProvider;
 )
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	
-	
 	  @Override
 	    protected void configure(HttpSecurity http) throws Exception {
 	        http
@@ -60,8 +59,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	                    .passwordAttribute("userPassword");
 	       
 	    }
-	    
-	    
 
   @Autowired
   private JwtAuthenticationEntryPoint unauthorizedHandler;
