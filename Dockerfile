@@ -8,6 +8,6 @@ FROM openjdk:8-jdk-alpine
 RUN addgroup -S spring && adduser -S spring -G spring
 USER spring:spring
 COPY --from=MAVEN_TOOL_CHAIN /tmp/target/*.jar app.jar
-COPY stempol-keystore.jks /etc/stempol/certs/stempol-keystore.jks
+COPY keystore.p12 /etc/stempol/certs/keystore.p12
 
 ENTRYPOINT ["java","-jar","/app.jar"]

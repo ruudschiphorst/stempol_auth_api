@@ -5,13 +5,14 @@ logging:
   level:
     org:
       hibernate:
-        SQL: DEBUG
+        SQL: INFO
 server:
   port: '8085'
   ssl.key-store-type: 'PKCS12'
-  ssl.key-store: '/etc/stempol/certs/stempol-keystore.jks'
+  ssl.key-store: '/etc/stempol/certs/keystore.p12'
   ssl.key-store-password: 'zdC3MZNQ4CPBB89mZZ5dwUs6PUJN72R9'
-  ssl.key-alias: 'stempol'
+  ssl.key-alias: 'tomcat'
+  ssl.keyStoreType: PKCS12
 security.require-ssl: true
 spring:
   ldap:
