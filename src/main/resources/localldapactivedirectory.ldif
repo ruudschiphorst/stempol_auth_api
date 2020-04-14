@@ -22,7 +22,7 @@ objectclass: organizationalPerson
 objectclass: inetOrgPerson
 cn: Ruud Schiphorst
 uid: ruud
-userPassword: $2y$12$18mLSdsAL77AdVIsRDBPouBINYPrnEyjF34hN.9ANjp2B99..3cXq
+userPassword: $2a$10$yKcxD0vTrFRMhzQ6YbvQiOq3yDQmknwYtajn129HKbn23ZeIFLU5i
 
 
 dn: cn=developers,ou=groups,dc=politie,dc=nl
