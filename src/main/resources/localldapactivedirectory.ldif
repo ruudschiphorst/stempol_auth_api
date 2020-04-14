@@ -24,6 +24,140 @@ cn: Ruud Schiphorst
 uid: ruud
 userPassword: $2a$10$4O9m1hYZcl3elimANe.QWu.bIVEFRr3Cb0pWm4hPq.lm1LZsVhGRq
 
+dn: uid=testuser_6495,ou=people,dc=politie,dc=nl
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: testuser 6495
+uid: testuser_6495
+userPassword: $2a$10$UnYX4OTx.D/pLY.YS4H2nOillclqVTICM3bqk0a351eneZI04nicW
+
+dn: uid=testuser_7632,ou=people,dc=politie,dc=nl
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: testuser 7632
+uid: testuser_7632
+userPassword: $2a$10$4HdKyA7pjyKkS5QOoOS8fus5f57k.JKRMDv8R7TTMTAVEM8CnRxge
+
+dn: uid=testuser_2280,ou=people,dc=politie,dc=nl
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: testuser 2280
+uid: testuser_2280
+userPassword: $2a$10$fkwwynzjELaoOX5iCcdwBOTCkNWdrY4rPHoNeY9vjurV3c8TByBs6
+
+dn: uid=testuser_7050,ou=people,dc=politie,dc=nl
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: testuser 7050
+uid: testuser_7050
+userPassword: $2a$10$.X6jUhcig/vo7N4ggKCdJuR.HEbQYMS4wu/W4qpeBRFB./CMHa9M2
+
+dn: uid=testuser_3379,ou=people,dc=politie,dc=nl
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: testuser 3379
+uid: testuser_3379
+userPassword: $2a$10$O9OkCVuwJyeEe1rXpo8ct.aP56J8J4WLSRrrHyZsay61FfU.Zhm9O
+
+dn: uid=testuser_2636,ou=people,dc=politie,dc=nl
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: testuser 2636
+uid: testuser_2636
+userPassword: $2a$10$qXIZPyX0mMx1tEhwbv5jn.sg2kjKQIZ..T63ItuuSe2UHopID2.h.
+
+dn: uid=testuser_2813,ou=people,dc=politie,dc=nl
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: testuser 2813
+uid: testuser_2813
+userPassword: $2a$10$0wPdTAMlH3/WadeYtpi/9uS3hiuRAiVnC6fNDjTQbWH0Upzk57g7q
+
+dn: uid=testuser_3567,ou=people,dc=politie,dc=nl
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: testuser 3567
+uid: testuser_3567
+userPassword: $2a$10$3d0VPngT89bRGeTZc.55luGLh/tmjp6K/XObu8Ay5z/LGAUy8FeKy
+
+dn: uid=testuser_6239,ou=people,dc=politie,dc=nl
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: testuser 6239
+uid: testuser_6239
+userPassword: $2a$10$h44xGprlvuLNxsjX0FQUnOy18OLfx1gJ627S5ZkzJHRUX77Ota6yW
+
+dn: uid=testuser_8672,ou=people,dc=politie,dc=nl
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: testuser 8672
+uid: testuser_8672
+userPassword: $2a$10$3BYJuRRKt6mCcQHE82hJuOMbHM/MykbuM30JIHgkeEHxyhOrblRmq
+
+dn: uid=testuser_6694,ou=people,dc=politie,dc=nl
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: testuser 6694
+uid: testuser_6694
+userPassword: $2a$10$2F5u7d3Lbr4lHQe7uNOYiuu9YvN3x8ISQmnVs77CFaGzuRhXjZYfu
+
+dn: uid=testuser_886,ou=people,dc=politie,dc=nl
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: testuser 886
+uid: testuser_886
+userPassword: $2a$10$l8exLgLL03TXple7rpnvwuiuWt3mnYHohkcuu5d.Cewb.sMlmm.zy
+
+dn: uid=testuser_5210,ou=people,dc=politie,dc=nl
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: testuser 5210
+uid: testuser_5210
+userPassword: $2a$10$IRFcLPja.czLpGxxJyjuDOGWd28X73q7LTZ/70g025NQRyIv5XuM.
+
+dn: uid=testuser_6268,ou=people,dc=politie,dc=nl
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: testuser 6268
+uid: testuser_6268
+userPassword: $2a$10$8Zc.4t.ng/MbqfGy9X67xedWiXsOsPxorCKove4w8x01z/WHOfQZy
+
+dn: uid=testuser_8973,ou=people,dc=politie,dc=nl
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: testuser 8973
+uid: testuser_8973
+userPassword: $2a$10$hcbizwaUBAZJ8RFHR1YhqejAScVBcIGTxJRLBTRjTsA9cFYPV29L6
 
 dn: cn=developers,ou=groups,dc=politie,dc=nl
 objectclass: top
