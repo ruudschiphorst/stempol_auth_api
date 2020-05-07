@@ -41,7 +41,7 @@ public class JwtTokenProvider extends BasicAuthenticationFilter  {
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(JwtTokenProvider.class);
 
-    private String jwtSecret="JWTSuperSecretKey";
+    private String jwtSecret=System.getenv("JWT_SIGNING_KEY");
     //private int jwtExpirationInMs=604800000;	//7 dagen
     private int jwtExpirationInMs=900000;		//15 minuten
 

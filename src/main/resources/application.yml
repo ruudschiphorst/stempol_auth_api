@@ -1,6 +1,6 @@
 app:
   jwtExpirationInMs: '604800000'
-  jwtSecret: JWTSuperSecretKey
+  jwtSecret: ${JWT_SIGNING_KEY}
 logging:
   level:
     org:
@@ -10,7 +10,7 @@ server:
   port: '8085'
   ssl.key-store-type: 'PKCS12'
   ssl.key-store: '/etc/stempol/certs/keystore.p12'
-  ssl.key-store-password: 'zdC3MZNQ4CPBB89mZZ5dwUs6PUJN72R9'
+  ssl.key-store-password: ${KEYSTORE_PASS}
   ssl.key-alias: 'tomcat'
   ssl.keyStoreType: PKCS12
 security.require-ssl: true
