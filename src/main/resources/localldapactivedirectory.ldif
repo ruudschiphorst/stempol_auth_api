@@ -60,22 +60,22 @@ cn: testuser 7050
 uid: testuser_7050
 userPassword: $2a$10$.X6jUhcig/vo7N4ggKCdJuR.HEbQYMS4wu/W4qpeBRFB./CMHa9M2
 
-dn: uid=testuser_3379,ou=people,dc=politie,dc=nl
+dn: uid=henk,ou=people,dc=politie,dc=nl
 objectclass: top
 objectclass: person
 objectclass: organizationalPerson
 objectclass: inetOrgPerson
-cn: testuser 3379
-uid: testuser_3379
+cn: Henk Fokkens
+uid: henk
 userPassword: $2a$10$O9OkCVuwJyeEe1rXpo8ct.aP56J8J4WLSRrrHyZsay61FfU.Zhm9O
 
-dn: uid=testuser_2636,ou=people,dc=politie,dc=nl
+dn: uid=frans,ou=people,dc=politie,dc=nl
 objectclass: top
 objectclass: person
 objectclass: organizationalPerson
 objectclass: inetOrgPerson
-cn: testuser 2636
-uid: testuser_2636
+cn: Frans Heeres
+uid: frans
 userPassword: $2a$10$qXIZPyX0mMx1tEhwbv5jn.sg2kjKQIZ..T63ItuuSe2UHopID2.h.
 
 dn: uid=testuser_2813,ou=people,dc=politie,dc=nl
