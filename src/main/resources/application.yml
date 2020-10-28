@@ -13,6 +13,7 @@ server:
   ssl.key-store-password: ${KEYSTORE_PASS}
   ssl.key-alias: 'tomcat'
   ssl.keyStoreType: PKCS12
+  ssl.enabled-protocols: TLSv1.2,TLSv1.3
 security.require-ssl: true
 spring:
   ldap:
